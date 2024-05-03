@@ -1,0 +1,26 @@
+.bannerImage {
+  background-image: url("../../assets/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 885px;
+}
+.bannerImage h1 {
+  font-size: 6rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.bannerImage p {
+  font-size: 1.2rem;
+  text-shadow: 0 0 10px #c83e96, 0 0 20px #ff1cbb, 0 0 30px;
+}
+.bannerImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bannerContainer {
+  text-align: center; /* Center align text */
+}
